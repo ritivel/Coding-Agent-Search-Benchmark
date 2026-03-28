@@ -1,0 +1,18 @@
+# Experiment 1 — Advanced Handwritten Document RAG Pipeline
+# Core ML
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+
+# Image processing
+opencv-python>=4.9.0
+Pillow>=10.2.0
+
+# Vector store (ChromaDB — replaces FAISS from Experiment 0)
+chromadb>=0.5.0
+
+# Hybrid search (BM25 keyword search)
+rank-bm25>=0.2.2
+
+# Numerical
+numpy>=1.26.0

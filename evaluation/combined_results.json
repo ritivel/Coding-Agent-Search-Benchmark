@@ -1,0 +1,694 @@
+{
+  "experiment_0_faiss_wordwindow": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.0,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.15658596732967037,
+        "std": 0.10499676524744506,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.10694032461434329,
+        "std": 0.08374042461350474,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.12723816099944238,
+        "std": 0.0809521720007985,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.04937665873515796,
+        "std": 0.04985342977136591,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.1523909932795569,
+        "std": 0.10261510571958478,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    }
+  },
+  "experiment_1_hybrid_rrf_rerank": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 0.8438746678883104,
+        "std": 0.13233351709814226,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 0.9304169164169164,
+        "std": 0.1131233217681083,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.0,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.18308121762393548,
+        "std": 0.1109072566174129,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.12012184161068053,
+        "std": 0.08451645438076442,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.14639905047372587,
+        "std": 0.09143701041059812,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.057751871761756314,
+        "std": 0.05524316701181655,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.17751917486843943,
+        "std": 0.1080901778902906,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.8803966279334701,
+          "std": 0.1341660677198579,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9449059829059828,
+          "std": 0.1003405640648097,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.8073527078431507,
+          "std": 0.11981685455994348,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9159278499278498,
+          "std": 0.12290515434028211,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.8803966279334701,
+          "std": 0.1341660677198579,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9449059829059828,
+          "std": 0.1003405640648097,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.8073527078431507,
+          "std": 0.11981685455994348,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9159278499278498,
+          "std": 0.12290515434028211,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    }
+  },
+  "experiment_2_semantic_hybrid_rerank": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 0.5393638199149976,
+        "std": 0.1540813465275232,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 0.6796668886668885,
+        "std": 0.20993625285993275,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.0,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.18712519957471646,
+        "std": 0.08815709885955206,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.11531282939218924,
+        "std": 0.07053835471091623,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.15407275660486952,
+        "std": 0.07137689359978187,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.05188481254896014,
+        "std": 0.04314886365382372,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.18063314448266873,
+        "std": 0.08596759545309003,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.47823235185866764,
+          "std": 0.13214277023134263,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.6132356532356532,
+          "std": 0.16293197309527055,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.6004952879713278,
+          "std": 0.15015424801720315,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.746098124098124,
+          "std": 0.22972464950714547,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.47823235185866764,
+          "std": 0.13214277023134263,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.6132356532356532,
+          "std": 0.16293197309527055,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.6004952879713278,
+          "std": 0.15015424801720315,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.746098124098124,
+          "std": 0.22972464950714547,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    }
+  },
+  "experiment_3_langchain_faiss": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 0.8091920303892575,
+        "std": 0.15794326103318743,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 0.8758096348096348,
+        "std": 0.1829005559584053,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 0.72,
+        "std": 0.44899888641287294,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.28,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.18433655512179695,
+        "std": 0.11696335698152048,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.11488005897922958,
+        "std": 0.08884021091817594,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.1456701530562663,
+        "std": 0.08941259242239433,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.05387846168776636,
+        "std": 0.055965987675534325,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.17726262597546538,
+        "std": 0.11322649020024701,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.883007363396837,
+          "std": 0.12351439184178797,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9313162393162393,
+          "std": 0.10547469271960654,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.48,
+          "std": 0.4995998398718719,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.52,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.7353766973816779,
+          "std": 0.15407444838618983,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.8203030303030304,
+          "std": 0.2227517668791583,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.96,
+          "std": 0.19595917942265428,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.040000000000000036,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.883007363396837,
+          "std": 0.12351439184178797,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9313162393162393,
+          "std": 0.10547469271960654,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.48,
+          "std": 0.4995998398718719,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.52,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.7353766973816779,
+          "std": 0.15407444838618983,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.8203030303030304,
+          "std": 0.2227517668791583,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.96,
+          "std": 0.19595917942265428,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.040000000000000036,
+          "count": 25
+        }
+      }
+    }
+  }
+}

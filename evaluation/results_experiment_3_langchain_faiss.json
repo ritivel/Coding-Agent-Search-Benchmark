@@ -1,0 +1,175 @@
+{
+  "experiment_3_langchain_faiss": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 0.8091920303892575,
+        "std": 0.15794326103318743,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 0.8758096348096348,
+        "std": 0.1829005559584053,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 0.72,
+        "std": 0.44899888641287294,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.28,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.18433655512179695,
+        "std": 0.11696335698152048,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.11488005897922958,
+        "std": 0.08884021091817594,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.1456701530562663,
+        "std": 0.08941259242239433,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.05387846168776636,
+        "std": 0.055965987675534325,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.17726262597546538,
+        "std": 0.11322649020024701,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.883007363396837,
+          "std": 0.12351439184178797,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9313162393162393,
+          "std": 0.10547469271960654,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.48,
+          "std": 0.4995998398718719,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.52,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.7353766973816779,
+          "std": 0.15407444838618983,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.8203030303030304,
+          "std": 0.2227517668791583,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.96,
+          "std": 0.19595917942265428,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.040000000000000036,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.883007363396837,
+          "std": 0.12351439184178797,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.9313162393162393,
+          "std": 0.10547469271960654,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.48,
+          "std": 0.4995998398718719,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.52,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.7353766973816779,
+          "std": 0.15407444838618983,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.8203030303030304,
+          "std": 0.2227517668791583,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 0.96,
+          "std": 0.19595917942265428,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.040000000000000036,
+          "count": 25
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "experiment_0_faiss_wordwindow": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.0,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.15658596732967037,
+        "std": 0.10499676524744506,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.10694032461434329,
+        "std": 0.08374042461350474,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.12723816099944238,
+        "std": 0.0809521720007985,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.04937665873515796,
+        "std": 0.04985342977136591,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.1523909932795569,
+        "std": 0.10261510571958478,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Experiment 2 — Handwritten Document RAG Pipeline
+# Surya OCR + ChromaDB + Cross-Encoder Re-ranking
+
+# OCR
+surya-ocr>=0.8.0
+
+# Fallback OCR (TrOCR)
+torch>=2.2.0
+transformers>=4.40.0
+
+# Image processing
+opencv-python>=4.9.0
+Pillow>=10.2.0
+
+# Embeddings & Re-ranking
+sentence-transformers>=2.7.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Numerical
+numpy>=1.26.0

@@ -1,0 +1,175 @@
+{
+  "experiment_2_semantic_hybrid_rerank": {
+    "trace_aggregate": {
+      "relevance": {
+        "mean": 0.5293717858628412,
+        "std": 0.24201511378829593,
+        "count": 50
+      },
+      "utilization": {
+        "mean": 0.5393638199149976,
+        "std": 0.1540813465275232,
+        "count": 50
+      },
+      "completeness": {
+        "mean": 0.6796668886668885,
+        "std": 0.20993625285993275,
+        "count": 50
+      },
+      "adherence": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "hallucination_rate": {
+        "mean": 0.0,
+        "count": 50
+      }
+    },
+    "traditional_aggregate": {
+      "rouge1": {
+        "mean": 0.18712519957471646,
+        "std": 0.08815709885955206,
+        "count": 50
+      },
+      "rouge2": {
+        "mean": 0.11531282939218924,
+        "std": 0.07053835471091623,
+        "count": 50
+      },
+      "rougeL": {
+        "mean": 0.15407275660486952,
+        "std": 0.07137689359978187,
+        "count": 50
+      },
+      "bleu": {
+        "mean": 0.05188481254896014,
+        "std": 0.04314886365382372,
+        "count": 50
+      },
+      "f1": {
+        "mean": 0.18063314448266873,
+        "std": 0.08596759545309003,
+        "count": 50
+      },
+      "exact_match": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 50
+      },
+      "bert_score": {
+        "mean": null,
+        "std": null,
+        "count": 0
+      }
+    },
+    "per_subset_trace": {
+      "hotpotqa": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.47823235185866764,
+          "std": 0.13214277023134263,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.6132356532356532,
+          "std": 0.16293197309527055,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "covidqa": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.6004952879713278,
+          "std": 0.15015424801720315,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.746098124098124,
+          "std": 0.22972464950714547,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    },
+    "per_domain_trace": {
+      "general_knowledge": {
+        "relevance": {
+          "mean": 0.5307755583597689,
+          "std": 0.2195955489781477,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.47823235185866764,
+          "std": 0.13214277023134263,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.6132356532356532,
+          "std": 0.16293197309527055,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      },
+      "biomedical": {
+        "relevance": {
+          "mean": 0.5279680133659135,
+          "std": 0.26251949321614826,
+          "count": 25
+        },
+        "utilization": {
+          "mean": 0.6004952879713278,
+          "std": 0.15015424801720315,
+          "count": 25
+        },
+        "completeness": {
+          "mean": 0.746098124098124,
+          "std": 0.22972464950714547,
+          "count": 25
+        },
+        "adherence": {
+          "mean": 1.0,
+          "std": 0.0,
+          "count": 25
+        },
+        "hallucination_rate": {
+          "mean": 0.0,
+          "count": 25
+        }
+      }
+    }
+  }
+}

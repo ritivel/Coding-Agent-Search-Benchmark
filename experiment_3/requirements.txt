@@ -1,0 +1,29 @@
+# Core OCR
+pytesseract>=0.3.10
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Transformer-based handwriting OCR
+transformers>=4.36.0
+torch>=2.1.0
+
+# Text processing & chunking
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# Embeddings & vector store
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# Structured output
+pydantic>=2.0.0
+
+# LLM providers (optional - for generation step)
+langchain-openai>=0.1.0
+openai>=1.0.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
