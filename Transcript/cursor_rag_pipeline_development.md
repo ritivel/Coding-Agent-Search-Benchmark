@@ -11,7 +11,7 @@ Build a RAG pipeline that takes handwritten document images as input, extracts t
 
 curl -X POST https://api.parallel.ai/v1beta/search \
   -H 'Content-Type: application/json' \
-  -H 'x-api-key: Rqs1pcuTrq50a7z8fjelr_PeTBqPAjd8H-7CfeK3' \
+  -H 'x-api-key: ${PARALLEL_API_KEY}' \
   -d '{
   "mode": "one-shot",
   "search_queries": null,
